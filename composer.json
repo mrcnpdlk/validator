@@ -1,0 +1,30 @@
+{
+  "name": "mrcnpdlk/validator",
+  "description": "Stuff validator",
+  "keywords": [
+    "pesel",
+    "regon",
+    "nip",
+    "krs",
+    "validator"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcin Pudełek",
+      "email": "marcin@pudelek.org.pl",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "mrcnpdlk\\Validator\\": "src/mrcnpdlk/Validator/"
+    }
+  }
+}
