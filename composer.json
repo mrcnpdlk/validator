@@ -22,6 +22,10 @@
   "require": {
     "php": ">=7.0"
   },
+  "require-dev": {
+    "phpunit/phpunit": "~6.3",
+    "mockery/mockery": "~0"
+  },
   "autoload": {
     "psr-4": {
       "mrcnpdlk\\Validator\\": "src/mrcnpdlk/Validator/"
