@@ -38,4 +38,16 @@ class Nip extends TypeAbstract implements TypeInterface
             }
         }
     }
+
+    /**
+     * @param mixed $checkedValue
+     *
+     * @return mixed
+     */
+    public static function clean($checkedValue)
+    {
+        static::isValidType($checkedValue, static::TYPE_STRING);
+
+        return preg_replace('/[^0-9]/', "", $checkedValue);
+    }
 }
