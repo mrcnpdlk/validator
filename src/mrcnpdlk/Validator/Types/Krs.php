@@ -23,6 +23,8 @@ class Krs extends TypeAbstract implements TypeInterface
     public static function isValid($checkedValue, bool $asEx = false): bool
     {
         try {
+            static::isValidType($checkedValue, static::TYPE_STRING);
+
             if (!preg_match('/^[0-9]{10}/', $checkedValue)) {
                 throw new \Exception("Regexp error", 1);
             }
