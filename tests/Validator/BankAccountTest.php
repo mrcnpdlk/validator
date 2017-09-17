@@ -36,7 +36,7 @@ class BankAccountTest extends TestCase
      */
     public function testBankAccountInvalid()
     {
-        $res = new BankAccount('13102027912123538978010730');
+        new BankAccount('13102027912123538978010730');
     }
 
 }

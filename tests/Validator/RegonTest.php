@@ -9,7 +9,7 @@
  * For the full copyright and license information, please view source file
  * that is bundled with this package in the file LICENSE
  *
- * @author Marcin Pudełek <marcin@pudelek.org.pl>
+ * @author  Marcin Pudełek <marcin@pudelek.org.pl>
  */
 
 namespace mrcnpdlk\Validator;
@@ -35,7 +35,7 @@ class RegonTest extends TestCase
      */
     public function testRegonInvalid()
     {
-        $res = new Regon('000331502');
+        new Regon('000331502');
     }
 
 }

@@ -36,7 +36,7 @@ class NipTest extends TestCase
      */
     public function testNipInvalid()
     {
-        $res = new Nip('526104088');
+        new Nip('526104088');
     }
 
 }

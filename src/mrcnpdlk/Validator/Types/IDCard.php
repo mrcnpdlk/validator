@@ -9,7 +9,7 @@
  * For the full copyright and license information, please view source file
  * that is bundled with this package in the file LICENSE
  *
- * @author Marcin Pudełek <marcin@pudelek.org.pl>
+ * @author  Marcin Pudełek <marcin@pudelek.org.pl>
  */
 
 namespace mrcnpdlk\Validator\Types;
@@ -83,9 +83,9 @@ class IDCard extends TypeAbstract implements TypeInterface
         } catch (\Exception $e) {
             if ($asEx) {
                 throw new Exception(sprintf("Invalid ID Card number [%s], reason: %s", $checkedValue, $e->getMessage()));
-            } else {
-                return false;
             }
+
+            return false;
         }
     }
 

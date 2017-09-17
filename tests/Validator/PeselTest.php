@@ -37,7 +37,7 @@ class PeselTest extends TestCase
      */
     public function testPeselInvalid()
     {
-        $res = new Pesel('12271402990');
+        new Pesel('12271402990');
     }
 
 }

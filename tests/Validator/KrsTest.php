@@ -35,7 +35,7 @@ class KrsTest extends TestCase
      */
     public function testKrsInvalid()
     {
-        $res = new Krs('000031d1911');
+        new Krs('000031d1911');
     }
 
 }

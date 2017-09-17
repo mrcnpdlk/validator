@@ -36,7 +36,7 @@ class IDCardTest extends TestCase
      */
     public function testIDCardInvalid()
     {
-        $res = new IDCard('AHA051590');
+        new IDCard('AHA051590');
     }
 
 }

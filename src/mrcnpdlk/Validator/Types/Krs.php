@@ -9,7 +9,7 @@
  * For the full copyright and license information, please view source file
  * that is bundled with this package in the file LICENSE
  *
- * @author Marcin Pudełek <marcin@pudelek.org.pl>
+ * @author  Marcin Pudełek <marcin@pudelek.org.pl>
  */
 
 declare (strict_types=1);
@@ -46,9 +46,9 @@ class Krs extends TypeAbstract implements TypeInterface
         } catch (\Exception $e) {
             if ($asEx) {
                 throw new Exception(sprintf("Invalid KRS number [%s], reason: %s", $checkedValue, $e->getMessage()));
-            } else {
-                return false;
             }
+
+            return false;
         }
     }
 
@@ -61,7 +61,7 @@ class Krs extends TypeAbstract implements TypeInterface
     {
         static::isValidType($checkedValue, static::TYPE_STRING, true);
 
-        return str_pad(preg_replace('/[\s]/', "", $checkedValue),10,'0',\STR_PAD_LEFT);
+        return str_pad(preg_replace('/[\s]/', "", $checkedValue), 10, '0', \STR_PAD_LEFT);
     }
 
 }
