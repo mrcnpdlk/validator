@@ -34,8 +34,19 @@ class TypeAbstract implements TypeInterface
 
     public function __construct($checkedValue)
     {
-        static::isValid($checkedValue, true);
         $this->checkedValue = static::clean($checkedValue);
+        static::isValid($this->checkedValue, true);
+
+    }
+
+    /**
+     * @param mixed $checkedValue
+     *
+     * @return mixed
+     */
+    public static function clean($checkedValue)
+    {
+        return $checkedValue;
     }
 
     /**
@@ -47,16 +58,6 @@ class TypeAbstract implements TypeInterface
     public static function isValid($checkedValue, bool $asEx = false): bool
     {
         return false;
-    }
-
-    /**
-     * @param mixed $checkedValue
-     *
-     * @return mixed
-     */
-    public static function clean($checkedValue)
-    {
-        return $checkedValue;
     }
 
     /**
