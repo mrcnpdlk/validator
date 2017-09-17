@@ -48,7 +48,7 @@ class Krs extends TypeAbstract implements TypeInterface
     {
         static::isValidType($checkedValue, static::TYPE_STRING, true);
 
-        return preg_replace('/[^0-9]/', "", $checkedValue);
+        return str_pad(preg_replace('/[\s]/', "", $checkedValue),10,'0',\STR_PAD_LEFT);
     }
 
 }
