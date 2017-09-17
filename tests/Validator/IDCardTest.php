@@ -14,9 +14,9 @@ class IDCardTest extends TestCase
 
     public function testIDCardValid()
     {
-        $defNr = 'AHA051591';
+        $defNr = 'aha051591';
         $res = new IDCard($defNr);
-        $this->assertEquals($defNr,$res->get());
+        $this->assertEquals('AHA051591',$res->get());
     }
 
     /**

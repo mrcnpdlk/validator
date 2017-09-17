@@ -16,7 +16,7 @@ class BankAccount extends TypeAbstract implements TypeInterface
     public static function isValid($checkedValue, bool $asEx = false): bool
     {
         try {
-            static::isValidType($checkedValue, static::TYPE_STRING);
+            static::isValidType($checkedValue, static::TYPE_STRING, true);
 
             $checkedValue = static::clean($checkedValue);
 
@@ -88,7 +88,7 @@ class BankAccount extends TypeAbstract implements TypeInterface
      */
     public static function clean($checkedValue)
     {
-        static::isValidType($checkedValue, static::TYPE_STRING);
+        static::isValidType($checkedValue, static::TYPE_STRING, true);
 
         return preg_replace('/[^0-9]/', "", $checkedValue);
     }

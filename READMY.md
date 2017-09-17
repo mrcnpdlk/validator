@@ -8,6 +8,6 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mrcnpdlk/validator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mrcnpdlk/validator/?branch=master) 
 [![Build Status](https://scrutinizer-ci.com/g/mrcnpdlk/validator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/mrcnpdlk/validator/build-status/master)
 [![Code Coverage](https://scrutinizer-ci.com/g/mrcnpdlk/validator/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mrcnpdlk/validator/?branch=master)
- 
+
 [![Code Climate](https://codeclimate.com/github/mrcnpdlk/validator/badges/gpa.svg)](https://codeclimate.com/github/mrcnpdlk/validator) 
 [![Issue Count](https://codeclimate.com/github/mrcnpdlk/validator/badges/issue_count.svg)](https://codeclimate.com/github/mrcnpdlk/validator)

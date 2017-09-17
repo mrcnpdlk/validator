@@ -10,7 +10,7 @@ class Pesel extends TypeAbstract implements TypeInterface
     public static function isValid($checkedValue, bool $asEx = false) : bool
     {
         try {
-            static::isValidType($checkedValue, static::TYPE_STRING);
+            static::isValidType($checkedValue, static::TYPE_STRING, true);
 
             if (!preg_match('/^[0-9]{11}$/', $checkedValue)) {
                 //check 11 digits
@@ -35,6 +35,18 @@ class Pesel extends TypeAbstract implements TypeInterface
                 return false;
             }
         }
+    }
+
+    /**
+     * @param mixed $checkedValue
+     *
+     * @return mixed
+     */
+    public static function clean($checkedValue)
+    {
+        static::isValidType($checkedValue, static::TYPE_STRING, true);
+
+        return preg_replace('/[^0-9]/', "", $checkedValue);
     }
 
 

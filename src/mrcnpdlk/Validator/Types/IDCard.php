@@ -11,7 +11,7 @@ class IDCard extends TypeAbstract implements TypeInterface
     public static function isValid($checkedValue, bool $asEx = false): bool
     {
         try {
-            static::isValidType($checkedValue, static::TYPE_STRING);
+            static::isValidType($checkedValue, static::TYPE_STRING, true);
             if (!preg_match('/^[A-NPR-Z]{3}[0-9]{6}$/', $checkedValue)) {
                 throw new \Exception("Regexp error", 1);
             }
@@ -84,7 +84,7 @@ class IDCard extends TypeAbstract implements TypeInterface
      */
     public static function clean($checkedValue)
     {
-        static::isValidType($checkedValue, static::TYPE_STRING);
+        static::isValidType($checkedValue, static::TYPE_STRING, true);
 
         return preg_replace('/[^A-Z0-9]/', "", strtoupper($checkedValue));
     }

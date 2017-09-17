@@ -12,7 +12,7 @@ class Nip extends TypeAbstract implements TypeInterface
     public static function isValid($checkedValue, bool $asEx = false): bool
     {
         try {
-            static::isValidType($checkedValue, static::TYPE_STRING);
+            static::isValidType($checkedValue, static::TYPE_STRING, true);
 
             if (!preg_match('/^[0-9]{10}$/', $checkedValue) || $checkedValue === '0000000000') {
                 //check 10 digits
@@ -46,7 +46,7 @@ class Nip extends TypeAbstract implements TypeInterface
      */
     public static function clean($checkedValue)
     {
-        static::isValidType($checkedValue, static::TYPE_STRING);
+        static::isValidType($checkedValue, static::TYPE_STRING, true);
 
         return preg_replace('/[^0-9]/', "", $checkedValue);
     }

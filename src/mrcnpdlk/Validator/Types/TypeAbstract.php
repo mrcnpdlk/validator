@@ -69,7 +69,7 @@ class TypeAbstract implements TypeInterface
      * @return bool
      * @throws \mrcnpdlk\Validator\Exception
      */
-    protected static function isValidType($checkedValue, string $requiredType, bool $asEx = true)
+    protected static function isValidType($checkedValue, string $requiredType, bool $asEx = false)
     {
         $requiredType = strtolower($requiredType);
 

@@ -11,6 +11,8 @@ namespace mrcnpdlk\Validator;
 interface TypeInterface
 {
     /**
+     * Checking if ID is valid
+     *
      * @param mixed $checkedValue Checked value
      * @param bool  $asEx         return FALSE or Exception
      *
@@ -19,13 +21,17 @@ interface TypeInterface
     public static function isValid($checkedValue, bool $asEx = false): bool;
 
     /**
-     * @param mixed $value
+     * Cleaning ID from unnecessary chars
+     *
+     * @param mixed $checkedValue
      *
      * @return mixed
      */
     public static function clean($checkedValue);
 
     /**
+     * Returning cleaning and valid ID
+     *
      * @return mixed
      */
     public function get();
