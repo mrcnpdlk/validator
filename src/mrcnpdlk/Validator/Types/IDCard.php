@@ -86,6 +86,6 @@ class IDCard extends TypeAbstract implements TypeInterface
     {
         static::isValidType($checkedValue, static::TYPE_STRING, true);
 
-        return preg_replace('/[^A-Z0-9]/', "", strtoupper($checkedValue));
+        return preg_replace('/[\s]/', "", strtoupper($checkedValue));
     }
 }

@@ -1,9 +1,4 @@
 <?php
-/**
- * Created by Marcin.
- * Date: 15.09.2017
- * Time: 22:47
- */
 
 namespace mrcnpdlk\Validator\Types;
 
@@ -90,6 +85,6 @@ class BankAccount extends TypeAbstract implements TypeInterface
     {
         static::isValidType($checkedValue, static::TYPE_STRING, true);
 
-        return preg_replace('/[^0-9]/', "", $checkedValue);
+        return preg_replace('/[\s-]/', "", $checkedValue);
     }
 }

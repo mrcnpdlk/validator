@@ -25,7 +25,7 @@ class Regon extends TypeAbstract implements TypeInterface
                 }
                 $checksum = ($sum % 11) % 10;
 
-                if (!$checksum === intval($checkedValue[count($weights)])) {
+                if ($checksum !== intval($checkedValue[count($weights)])) {
                     //jezeli suma kontrolna nie jest rowna ostatniej cyfrze w numerze REGON to numerek jest błędny
                     throw new \Exception("Checksum Error", 1);
                 }
@@ -47,6 +47,6 @@ class Regon extends TypeAbstract implements TypeInterface
     {
         static::isValidType($checkedValue, static::TYPE_STRING, true);
 
-        return preg_replace('/[^0-9]/', "", $checkedValue);
+        return str_pad(preg_replace('/[\s]/', "", $checkedValue), 9, '0', \STR_PAD_LEFT);
     }
 }
