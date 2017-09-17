@@ -31,38 +31,7 @@ class BankAccount extends TypeAbstract implements TypeInterface
                 //check 11 digits
                 throw new \Exception(sprintf("Regexp error"), 1);
             }
-            $weights = [
-                1,
-                10,
-                3,
-                30,
-                9,
-                90,
-                27,
-                76,
-                81,
-                34,
-                49,
-                5,
-                50,
-                15,
-                53,
-                45,
-                62,
-                38,
-                89,
-                17,
-                73,
-                51,
-                25,
-                56,
-                75,
-                71,
-                31,
-                19,
-                93,
-                57,
-            ];
+            $weights = [1, 10, 3, 30, 9, 90, 27, 76, 81, 34, 49, 5, 50, 15, 53, 45, 62, 38, 89, 17, 73, 51, 25, 56, 75, 71, 31, 19, 93, 57];
 
             $checkedValue .= "2521";
             $cnrb         = substr($checkedValue, 2) . substr($checkedValue, 0, 2);

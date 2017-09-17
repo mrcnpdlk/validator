@@ -30,11 +30,12 @@ class Nip extends TypeAbstract implements TypeInterface
                 //check 10 digits
                 throw new \Exception("Regexp error", 1);
             }
-            $steps    = [6, 5, 7, 2, 3, 4, 5, 6, 7];
-            $checkSum = 0;
+            $weights      = [6, 5, 7, 2, 3, 4, 5, 6, 7];
+            $countWeights = count($weights);
+            $checkSum     = 0;
 
-            for ($i = 0; $i < 9; $i++) {
-                $checkSum += $steps[$i] * intval($checkedValue[$i]);
+            for ($i = 0; $i < $countWeights; $i++) {
+                $checkSum += $weights[$i] * intval($checkedValue[$i]);
             }
             $checkSum = $checkSum % 11;
             /**

@@ -25,19 +25,19 @@ class Regon extends TypeAbstract implements TypeInterface
             static::isValidType($checkedValue, static::TYPE_STRING, true);
 
             if (preg_match('/^[0-9]{9}$/', $checkedValue) || preg_match('/^[0-9]{14}$/', $checkedValue)) {
-                $weights = [];
                 if (strlen($checkedValue) == 9) {
                     $weights = [8, 9, 2, 3, 4, 5, 6, 7]; //wagi stosowane dla REGONów 9-znakowych
-                } elseif (strlen($checkedValue) == 14) {
+                } else {
                     $weights = [2, 4, 8, 5, 0, 9, 7, 3, 6, 1, 2, 4, 8]; //wagi stosowane dla REGONów 14-znakowych
                 }
-                $sum = 0;
-                for ($i = 0; $i < count($weights); $i++) {
+                $sum          = 0;
+                $countWeights = count($weights);
+                for ($i = 0; $i < $countWeights; $i++) {
                     $sum += $weights[$i] * intval($checkedValue[$i]);
                 }
                 $checksum = ($sum % 11) % 10;
 
-                if ($checksum !== intval($checkedValue[count($weights)])) {
+                if ($checksum !== intval($checkedValue[$countWeights])) {
                     //jezeli suma kontrolna nie jest rowna ostatniej cyfrze w numerze REGON to numerek jest błędny
                     throw new \Exception("Checksum Error", 1);
                 }
