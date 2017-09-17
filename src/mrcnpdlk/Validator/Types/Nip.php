@@ -88,8 +88,8 @@ class Nip extends TypeAbstract implements TypeInterface
         $taxOfficeCode = substr($this->checkedValue, 0, 3);
         if (property_exists($json, $taxOfficeCode)) {
             return $json->{$taxOfficeCode}->name;
-        } else {
-            return null;
         }
+
+        return null;
     }
 }

@@ -68,13 +68,13 @@ class IDCard extends TypeAbstract implements TypeInterface
             ];
 
             $importances       = [7, 3, 1, 9, 7, 3, 1, 7, 3];
-            $identity_card_sum = 0;
+            $identityCardSum = 0;
 
             foreach (str_split($checkedValue) as $i => $digit) {
-                $identity_card_sum += $defValues[$digit] * $importances[$i];
+                $identityCardSum += $defValues[$digit] * $importances[$i];
             };
 
-            if ($identity_card_sum % 10 !== 0) {
+            if ($identityCardSum % 10 !== 0) {
                 throw new \Exception(sprintf('Checksum error'), 1);
             }
 

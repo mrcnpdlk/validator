@@ -77,9 +77,9 @@ class Pesel extends TypeAbstract implements TypeInterface
     {
         if ((intval($this->checkedValue[9]) % 2) === 0) {
             return static::SEX_F;
-        } else {
-            return static::SEX_M;
         }
+
+        return static::SEX_M;
     }
 
     /**
@@ -96,27 +96,27 @@ class Pesel extends TypeAbstract implements TypeInterface
      */
     private function parseBirthDate()
     {
-        $in_year  = intval($this->checkedValue [0] . $this->checkedValue [1]);
-        $in_month = intval($this->checkedValue [2] . $this->checkedValue [3]);
-        $in_day   = intval($this->checkedValue [4] . $this->checkedValue [5]);
+        $inYear  = intval($this->checkedValue [0] . $this->checkedValue [1]);
+        $inMonth = intval($this->checkedValue [2] . $this->checkedValue [3]);
+        $inDay   = intval($this->checkedValue [4] . $this->checkedValue [5]);
 
-        if ($in_month >= 81 && $in_month <= 92) {
-            $month = $in_month - 80;
-            $year  = $in_year + 1800;
-        } elseif ($in_month >= 1 && $in_month <= 12) {
-            $month = $in_month;
-            $year  = $in_year + 1900;
-        } elseif ($in_month >= 21 && $in_month <= 32) {
-            $month = $in_month - 20;
-            $year  = $in_year + 2000;
+        if ($inMonth >= 81 && $inMonth <= 92) {
+            $month = $inMonth - 80;
+            $year  = $inYear + 1800;
+        } elseif ($inMonth >= 1 && $inMonth <= 12) {
+            $month = $inMonth;
+            $year  = $inYear + 1900;
+        } elseif ($inMonth >= 21 && $inMonth <= 32) {
+            $month = $inMonth - 20;
+            $year  = $inYear + 2000;
         } else {
             throw new Exception("Invaild PESEL number - birthday part out of range");
         }
-        if (!checkdate($month, $in_day, $year)) {
+        if (!checkdate($month, $inDay, $year)) {
             throw new Exception("Invaild PESEL number - birthday part is invaild");
         }
 
-        return new \DateTime(implode('-', [$year, $month, $in_day]));
+        return new \DateTime(implode('-', [$year, $month, $inDay]));
     }
 
     /**

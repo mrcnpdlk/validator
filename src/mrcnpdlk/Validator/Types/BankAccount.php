@@ -31,7 +31,7 @@ class BankAccount extends TypeAbstract implements TypeInterface
                 //check 11 digits
                 throw new \Exception(sprintf("Regexp error"), 1);
             }
-            $W = [
+            $weights = [
                 1,
                 10,
                 3,
@@ -66,12 +66,12 @@ class BankAccount extends TypeAbstract implements TypeInterface
 
             $checkedValue .= "2521";
             $cnrb         = substr($checkedValue, 2) . substr($checkedValue, 0, 2);
-            $Z            = 0;
+            $checkSum     = 0;
             for ($i = 0; $i < 30; $i++) {
-                $Z += $cnrb[29 - $i] * $W[$i];
+                $checkSum += $cnrb[29 - $i] * $weights[$i];
             }
 
-            if ($Z % 97 !== 1) {
+            if ($checkSum % 97 !== 1) {
                 throw new \Exception("Checksum Error", 1);
             }
 
