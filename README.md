@@ -76,7 +76,7 @@ string(8) "10202791"
 
 ## Running the tests
 
-```php
+```bash
 ./vendor/bin/phpunit
 ```
 
