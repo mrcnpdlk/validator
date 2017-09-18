@@ -59,4 +59,24 @@ class Regon extends TypeAbstract implements TypeInterface
 
         return str_pad(preg_replace('/[\s]/', "", $checkedValue), 9, '0', \STR_PAD_LEFT);
     }
+
+    /**
+     * Return short REGON number
+     *
+     * @return string
+     */
+    public function getShort()
+    {
+        return substr($this->checkedValue, 0, 9);
+    }
+
+    /**
+     * Return long REGON number
+     *
+     * @return string
+     */
+    public function getLong()
+    {
+        return str_pad($this->checkedValue, 14, '0', \STR_PAD_RIGHT);
+    }
 }

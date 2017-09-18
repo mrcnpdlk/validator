@@ -54,6 +54,8 @@ var_dump($res->getTaxOffice()); //return Tax Office name (UrzÄ…d Skarbowy PoznaÅ
 ```php
 $res = new \mrcnpdlk\Validator\Types\Regon('331501');
 var_dump($res->get()); //return parsed and cleaned string (000331501)
+var_dump($res->getShort()); //return short number (000331501)
+var_dump($res->getLong()); //return long number (00033150100000)
 ```
 
 ## Running the tests
