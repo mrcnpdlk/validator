@@ -20,11 +20,11 @@ use mrcnpdlk\Validator\TypeInterface;
 class Pesel extends TypeAbstract implements TypeInterface
 {
     /**
-     * Płeć - mężczyzna
+     * Płeć - mężczyzna (male)
      */
     const SEX_M = 'M';
     /**
-     * Płeć - kobieta
+     * Płeć - kobieta (female)
      */
     const SEX_F = 'F';
 
@@ -37,14 +37,10 @@ class Pesel extends TypeAbstract implements TypeInterface
                 //check 11 digits
                 throw new \Exception("Regexp error", 1);
             }
-            $arrSteps = [1, 3, 7, 9, 1, 3, 7, 9, 1, 3]; // weights
-            $intSum   = 0;
-            for ($i = 0; $i < 10; $i++) {
-                $intSum += $arrSteps[$i] * intval($checkedValue[$i]); //multiply each digit by weight and sum
-            }
-            $int          = 10 - $intSum % 10; //calculate checksum
-            $intControlNr = $int % 10;
-            if ($intControlNr !== intval($checkedValue[10])) {
+            $weights  = [1, 3, 7, 9, 1, 3, 7, 9, 1, 3]; // weights
+            $checkSum = static::getChecksum($checkedValue, $weights, 10);
+            $checkSum = (10 - $checkSum) % 10;
+            if ($checkSum !== intval(substr($checkedValue, -1))) {
                 throw new \Exception("Checksum Error", 1);
             }
 
@@ -71,6 +67,8 @@ class Pesel extends TypeAbstract implements TypeInterface
     }
 
     /**
+     * Getting person sex
+     *
      * @return string
      */
     public function getSex()
@@ -91,6 +89,8 @@ class Pesel extends TypeAbstract implements TypeInterface
     }
 
     /**
+     * Getting birth date
+     *
      * @return \DateTime
      * @throws Exception
      */
@@ -120,6 +120,8 @@ class Pesel extends TypeAbstract implements TypeInterface
     }
 
     /**
+     * Getting current age
+     *
      * @return int
      */
     public function getAge()
