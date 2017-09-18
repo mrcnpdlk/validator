@@ -31,9 +31,24 @@ class NrbTest extends TestCase
     /**
      * @expectedException \mrcnpdlk\Validator\Exception
      */
-    public function testBankAccountInvalid()
+    public function testBankAccountInvalidChecksum()
     {
         new Nrb('13102027912123538978010730');
+    }
+    /**
+     * @expectedException \mrcnpdlk\Validator\Exception
+     */
+    public function testBankAccountInvalidRegex()
+    {
+        new Nrb('131020279121235389780aaa');
+    }
+
+    /**
+     * @expectedException \mrcnpdlk\Validator\Exception
+     */
+    public function testBankAccountInvalidBankDepartment()
+    {
+        new Nrb('04 0000 0000 0000 0000 0000 0000');
     }
 
 }

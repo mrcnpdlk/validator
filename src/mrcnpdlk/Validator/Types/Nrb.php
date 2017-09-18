@@ -65,7 +65,7 @@ class Nrb extends TypeAbstract implements TypeInterface
             //sprawdzamy jeszcze czy kod oddziału jest prawidłowy
             $bankDepartmentId = substr($checkedValue, 2, 8);
             $checkSum         = static::getChecksum($bankDepartmentId, [3, 9, 7, 1, 3, 9, 7, 1], 10);
-            if ($checkSum) {
+            if ($checkSum || $bankDepartmentId === '00000000') {
                 throw new \Exception("Bank department checksum Error", 1);
             }
 
