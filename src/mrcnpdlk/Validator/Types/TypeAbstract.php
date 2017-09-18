@@ -9,7 +9,7 @@
  * For the full copyright and license information, please view source file
  * that is bundled with this package in the file LICENSE
  *
- * @author Marcin Pudełek <marcin@pudelek.org.pl>
+ * @author  Marcin Pudełek <marcin@pudelek.org.pl>
  */
 
 namespace mrcnpdlk\Validator\Types;
@@ -135,6 +135,24 @@ class TypeAbstract implements TypeInterface
     public function get()
     {
         return $this->checkedValue;
+    }
+
+    /**
+     * @param string $checkedValue
+     * @param array  $weights
+     * @param int    $modulo
+     *
+     * @return int
+     */
+    public static function getChecksum(string $checkedValue, array $weights, int $modulo = 11)
+    {
+        $sum          = 0;
+        $countWeights = count($weights);
+        for ($i = 0; $i < $countWeights; $i++) {
+            $sum += $weights[$i] * intval($checkedValue[$i]);
+        }
+
+        return $sum % $modulo;
     }
 
 }
