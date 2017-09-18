@@ -18,11 +18,6 @@ use mrcnpdlk\Validator\Types\Nip;
 
 class NipTest extends TestCase
 {
-    public function setUp()
-    {
-        parent::setUp();
-    }
-
     public function testNipValid()
     {
         $defNr = '526-10-40-828';

@@ -18,16 +18,19 @@ use mrcnpdlk\Validator\Types\Regon;
 
 class RegonTest extends TestCase
 {
-    public function setUp()
-    {
-        parent::setUp();
-    }
-
     public function testRegonValid()
     {
         $defNr = '331501';
         $res   = new Regon($defNr);
         $this->assertEquals('000331501', $res->get());
+    }
+
+    public function testRegonLongValid()
+    {
+        $defNr = '47051837100020';
+        $res   = new Regon($defNr);
+        $this->assertEquals('470518371', $res->getShort());
+        $this->assertEquals('47051837100020', $res->getLong());
     }
 
     /**

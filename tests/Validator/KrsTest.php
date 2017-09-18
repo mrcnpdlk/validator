@@ -18,11 +18,6 @@ use mrcnpdlk\Validator\Types\Krs;
 
 class KrsTest extends TestCase
 {
-    public function setUp()
-    {
-        parent::setUp();
-    }
-
     public function testKrsValid()
     {
         $defNr = '311911';

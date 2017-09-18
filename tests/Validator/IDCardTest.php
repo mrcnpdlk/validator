@@ -19,11 +19,6 @@ use mrcnpdlk\Validator\Types\IDCard;
 
 class IDCardTest extends TestCase
 {
-    public function setUp()
-    {
-        parent::setUp();
-    }
-
     public function testIDCardValid()
     {
         $defNr = 'aha051591  ';

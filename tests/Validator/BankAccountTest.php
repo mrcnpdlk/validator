@@ -19,11 +19,6 @@ use mrcnpdlk\Validator\Types\BankAccount;
 
 class BankAccountTest extends TestCase
 {
-    public function setUp()
-    {
-        parent::setUp();
-    }
-
     public function testBankAccountValid()
     {
         $defNr = '13 1020-2791 2123 5389 7801 0731';

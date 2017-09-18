@@ -18,11 +18,6 @@ use mrcnpdlk\Validator\Types\Pesel;
 
 class PeselTest extends TestCase
 {
-    public function setUp()
-    {
-        parent::setUp();
-    }
-
     public function testPeselValid()
     {
         $defNr = '12271402999';
