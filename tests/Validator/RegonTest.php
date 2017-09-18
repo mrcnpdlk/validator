@@ -36,9 +36,17 @@ class RegonTest extends TestCase
     /**
      * @expectedException \mrcnpdlk\Validator\Exception
      */
-    public function testRegonInvalid()
+    public function testRegonInvalidChecksum()
     {
         new Regon('000331502');
+    }
+
+    /**
+     * @expectedException \mrcnpdlk\Validator\Exception
+     */
+    public function testRegonInvalidRegex()
+    {
+        new Regon('0003315021');
     }
 
 }
