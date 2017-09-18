@@ -17,13 +17,15 @@ namespace mrcnpdlk\Validator;
 
 use mrcnpdlk\Validator\Types\Nrb;
 
-class BankAccountTest extends TestCase
+class NrbTest extends TestCase
 {
     public function testBankAccountValid()
     {
         $defNr = '13 1020-2791 2123 5389 7801 0731';
         $res = new Nrb($defNr);
         $this->assertEquals('13102027912123538978010731',$res->get());
+        $this->assertEquals('102',$res->getBank());
+        $this->assertEquals('10202791',$res->getBankDepartment());
     }
 
     /**

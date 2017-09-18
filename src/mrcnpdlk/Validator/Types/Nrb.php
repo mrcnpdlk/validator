@@ -18,7 +18,14 @@ namespace mrcnpdlk\Validator\Types;
 use mrcnpdlk\Validator\Exception;
 use mrcnpdlk\Validator\TypeInterface;
 
-class BankAccount extends TypeAbstract implements TypeInterface
+/**
+ * Class Nrb
+ *
+ * Polish bank account number (Numer rachunku bankowego)
+ *
+ * @package mrcnpdlk\Validator\Types
+ */
+class Nrb extends TypeAbstract implements TypeInterface
 {
     public static function isValid($checkedValue, bool $asEx = false): bool
     {
@@ -55,6 +62,13 @@ class BankAccount extends TypeAbstract implements TypeInterface
                 throw new \Exception("Checksum Error", 1);
             }
 
+            //sprawdzamy jeszcze czy kod oddziału jest prawidłowy
+            $bankDepartmentId = substr($checkedValue, 2, 8);
+            $checkSum         = static::getChecksum($bankDepartmentId, [3, 9, 7, 1, 3, 9, 7, 1], 10);
+            if ($checkSum) {
+                throw new \Exception("Bank department checksum Error", 1);
+            }
+
             return true;
         } catch (\Exception $e) {
             if ($asEx) {
@@ -78,5 +92,25 @@ class BankAccount extends TypeAbstract implements TypeInterface
         static::isValidType($checkedValue, static::TYPE_STRING, true);
 
         return preg_replace('/[\s-]/', "", $checkedValue);
+    }
+
+    /**
+     * Return bank department ID
+     *
+     * @return string
+     */
+    public function getBankDepartment()
+    {
+        return substr($this->checkedValue, 2, 8);
+    }
+
+    /**
+     * Return bank ID
+     *
+     * @return string
+     */
+    public function getBank()
+    {
+        return substr($this->checkedValue, 2, 3);
     }
 }

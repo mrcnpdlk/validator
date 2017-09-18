@@ -58,6 +58,22 @@ var_dump($res->getShort()); //return short number (000331501)
 var_dump($res->getLong()); //return long number (00033150100000)
 ```
 
+#### NRB
+```php
+
+$oNrb = new \mrcnpdlk\Validator\Types\Nrb('13 1020 2791 2123 5389 7801 0731');
+var_dump($oNrb->get());
+var_dump($oNrb->getBank());
+var_dump($oNrb->getBankDepartment());
+```
+returns:
+```text
+string(26) "13102027912123538978010731"
+string(3) "102"
+string(8) "10202791"
+
+```
+
 ## Running the tests
 
 ```php
