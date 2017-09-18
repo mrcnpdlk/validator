@@ -37,9 +37,8 @@ class Pesel extends TypeAbstract implements TypeInterface
                 //check 11 digits
                 throw new \Exception("Regexp error", 1);
             }
-            $weights  = [1, 3, 7, 9, 1, 3, 7, 9, 1, 3]; // weights
+            $weights  = [9, 7, 3, 1, 9, 7, 3, 1, 9, 7]; // weights
             $checkSum = static::getChecksum($checkedValue, $weights, 10);
-            $checkSum = (10 - $checkSum) % 10;
             if ($checkSum !== intval(substr($checkedValue, -1))) {
                 throw new \Exception("Checksum Error", 1);
             }
