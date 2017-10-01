@@ -134,7 +134,7 @@ class TypeAbstract implements TypeInterface
 
     public function get()
     {
-        return $this->checkedValue;
+        return strval($this->checkedValue);
     }
 
     /**
