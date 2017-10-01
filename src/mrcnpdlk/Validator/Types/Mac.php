@@ -36,9 +36,9 @@ class Mac extends TypeAbstract implements TypeInterface
     public static function isValid($checkedValue, bool $asEx = false): bool
     {
         try {
-            $checkedValue = static::clean($checkedValue);
+            static::isValidType($checkedValue, static::TYPE_STRING, true);
 
-            if (!preg_match('/^[a-f0-9]{12}$/i', $checkedValue)) {
+            if (!preg_match('/^[0-9a-fA-F]{2}(?=([:;.]?))(?:\\1[0-9a-fA-F]{2}){5}$/', $checkedValue)) {
                 throw new \Exception("Regexp error", 1);
             }
 
@@ -77,12 +77,12 @@ class Mac extends TypeAbstract implements TypeInterface
     }
 
     /**
-     * @param bool   $setUpper
      * @param string $separator
+     * @param bool   $setUpper
      *
      * @return string
      */
-    public function getLong(bool $setUpper = false, string $separator = ':')
+    public function getLong(string $separator = ':', bool $setUpper = false)
     {
         return implode($separator, str_split($setUpper ? strtoupper($this->get()) : $this->get(), 2));
     }
@@ -94,7 +94,7 @@ class Mac extends TypeAbstract implements TypeInterface
      */
     public function getVendor()
     {
-        $url = sprintf('%s%s',"http://api.macvendors.com/" , $this->get());
+        $url = sprintf('%s%s', "http://api.macvendors.com/", $this->get());
         $ch  = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
