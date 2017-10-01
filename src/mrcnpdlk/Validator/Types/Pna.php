@@ -65,7 +65,7 @@ class Pna extends TypeAbstract implements TypeInterface
     {
         static::isValidType($checkedValue, static::TYPE_STRING, true);
 
-        return trim($checkedValue);
+        return preg_replace('/[^0-9]/', '', trim($checkedValue));
     }
 
     /**
