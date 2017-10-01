@@ -73,6 +73,34 @@ class TypeAbstract implements TypeInterface
     }
 
     /**
+     * @param $checkedValue
+     *
+     * @return static
+     */
+    public static function create($checkedValue)
+    {
+        return new static($checkedValue);
+    }
+
+    /**
+     * @param string $checkedValue
+     * @param array  $weights
+     * @param int    $modulo
+     *
+     * @return int
+     */
+    public static function getChecksum(string $checkedValue, array $weights, int $modulo = 11)
+    {
+        $sum          = 0;
+        $countWeights = count($weights);
+        for ($i = 0; $i < $countWeights; $i++) {
+            $sum += $weights[$i] * intval($checkedValue[$i]);
+        }
+
+        return $sum % $modulo;
+    }
+
+    /**
      * Check if value has required type
      *
      * @param        $checkedValue
@@ -135,24 +163,6 @@ class TypeAbstract implements TypeInterface
     public function get()
     {
         return strval($this->checkedValue);
-    }
-
-    /**
-     * @param string $checkedValue
-     * @param array  $weights
-     * @param int    $modulo
-     *
-     * @return int
-     */
-    public static function getChecksum(string $checkedValue, array $weights, int $modulo = 11)
-    {
-        $sum          = 0;
-        $countWeights = count($weights);
-        for ($i = 0; $i < $countWeights; $i++) {
-            $sum += $weights[$i] * intval($checkedValue[$i]);
-        }
-
-        return $sum % $modulo;
     }
 
 }
