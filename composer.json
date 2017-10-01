@@ -6,6 +6,7 @@
     "regon",
     "nip",
     "krs",
+    "mac",
     "validator"
   ],
   "type": "library",
