@@ -85,7 +85,6 @@ class IPv4 extends TypeAbstract implements TypeInterface
      */
     public function getLeadingZeros()
     {
-        $sIp   = '';
         $parts = explode('.', $this->get());
         foreach ($parts as &$part) {
             $part = str_pad($part, 3, '0', \STR_PAD_LEFT);
