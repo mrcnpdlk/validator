@@ -32,7 +32,7 @@ class IPv4Test extends TestCase
     {
         $defNr = '91.5.134.007';
         $this->assertTrue(IPv4::isValid($defNr, false));
-        $res   = new IPv4($defNr);
+        $res   = IPv4::create($defNr);
         $this->assertEquals('91.5.134.7', $res->get());
         $this->assertEquals('091.005.134.007', $res->getLeadingZeros());
         $this->assertEquals(1527088647, $res->getLong());

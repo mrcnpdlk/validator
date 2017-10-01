@@ -48,6 +48,12 @@ class PeselTest extends TestCase
         $this->assertEquals(true, $res->getAge() > 205);
     }
 
+    public function testCreate()
+    {
+        $res = Pesel::create('18053118968');
+        $this->assertEquals('18053118968', $res->get());
+    }
+
     /**
      * @expectedException \mrcnpdlk\Validator\Exception
      */

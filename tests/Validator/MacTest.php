@@ -22,7 +22,7 @@ class MacTest extends TestCase
     {
         $defNr = '00:01:02:aa:BB:EF';
         $this->assertTrue(Mac::isValid($defNr, false));
-        $res   = new Mac($defNr);
+        $res = new Mac($defNr);
         $this->assertEquals('000102aabbef', $res->get());
         $this->assertEquals('000102AABBEF', $res->getShort(true));
         $this->assertEquals('00-01-02-AA-BB-EF', $res->getLong('-', true));
@@ -64,6 +64,12 @@ class MacTest extends TestCase
     public function testMacInvalidRegexThree()
     {
         new Mac(112233445566);
+    }
+
+    public function testVendor()
+    {
+        $sVendor = Mac::create('00:02:9b:3a:a0:d7')->getVendor();
+        $this->assertTrue(is_string($sVendor) || is_null($sVendor));
     }
 
 }

@@ -9,7 +9,7 @@
  * For the full copyright and license information, please view source file
  * that is bundled with this package in the file LICENSE
  *
- * @author Marcin Pudełek <marcin@pudelek.org.pl>
+ * @author  Marcin Pudełek <marcin@pudelek.org.pl>
  */
 
 namespace mrcnpdlk\Validator;
@@ -24,6 +24,13 @@ class KrsTest extends TestCase
         $res   = new Krs($defNr);
         $this->assertEquals('0000311911', $res->get());
     }
+
+    public function testCreate()
+    {
+        $res = Krs::create('0012345678');
+        $this->assertEquals('0012345678', $res->get());
+    }
+
 
     /**
      * @expectedException \mrcnpdlk\Validator\Exception

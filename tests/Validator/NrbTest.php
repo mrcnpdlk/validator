@@ -35,6 +35,12 @@ class NrbTest extends TestCase
         $this->assertEquals('10202791', $res->getBankDepartment());
     }
 
+    public function testCreate()
+    {
+        $res = Nrb::create('56249006987922476080369247');
+        $this->assertEquals('56249006987922476080369247', $res->get());
+    }
+
     /**
      * @expectedException \mrcnpdlk\Validator\Exception
      */

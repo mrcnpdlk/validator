@@ -31,7 +31,6 @@ class Nrb extends TypeAbstract implements TypeInterface
     {
         try {
             static::isValidType($checkedValue, static::TYPE_STRING, true);
-
             $checkedValue = static::clean($checkedValue);
 
             if (!preg_match('/^[0-9]{26}$/', $checkedValue)) {

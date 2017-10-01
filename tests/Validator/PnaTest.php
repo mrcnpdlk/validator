@@ -37,6 +37,12 @@ class PnaTest extends TestCase
         $this->assertEquals('90-019', $res->getLong());
     }
 
+    public function testCreate()
+    {
+        $res = Pna::create('01-234');
+        $this->assertEquals('01234', $res->get());
+    }
+
     /**
      * @expectedException \mrcnpdlk\Validator\Exception
      */

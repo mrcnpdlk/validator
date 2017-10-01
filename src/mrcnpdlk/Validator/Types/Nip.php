@@ -30,7 +30,7 @@ class Nip extends TypeAbstract implements TypeInterface
                 //check 10 digits
                 throw new \Exception("Regexp error", 1);
             }
-            $weights      = [6, 5, 7, 2, 3, 4, 5, 6, 7];
+            $weights  = [6, 5, 7, 2, 3, 4, 5, 6, 7];
             $checkSum = static::getChecksum($checkedValue, $weights) % 10;
             /**
              * http://zylla.wipos.p.lodz.pl/ut/nip-rego.html
@@ -47,7 +47,7 @@ class Nip extends TypeAbstract implements TypeInterface
              * które błędnie weryfikują numer NIP 1234567890 jako prawidłowy.
              * A to jest szczególny przypadek gdy Suma MOD 11 = 10
              */
-            if ($checkSum !== intval(substr($checkedValue,-1)) || $checkSum === 10) {
+            if ($checkSum !== intval(substr($checkedValue, -1)) || $checkSum === 10) {
                 throw new \Exception("Checksum Error", 1);
             }
 

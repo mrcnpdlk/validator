@@ -62,9 +62,10 @@ class DateTime extends \DateTime implements TypeInterface
         } catch (\Exception $e) {
             if ($asEx) {
                 throw new Exception(sprintf("Invalid Date format [%s], reason: %s", $value, $e->getMessage()));
-            } else {
-                return false;
             }
+
+            return false;
+
         }
     }
 

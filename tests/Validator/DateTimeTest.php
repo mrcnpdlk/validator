@@ -44,4 +44,12 @@ class DateTimeTest extends TestCase
         DateTime::isValid('2017-10-01 00:01:78', true);
     }
 
+    /**
+     * @expectedException \mrcnpdlk\Validator\Exception
+     */
+    public function testDateInvalidInt()
+    {
+        DateTime::isValid(1, true);
+    }
+
 }

@@ -33,6 +33,12 @@ class RegonTest extends TestCase
         $this->assertEquals('47051837100020', $res->getLong());
     }
 
+    public function testCreate()
+    {
+        $res = Regon::create('45700482854889');
+        $this->assertEquals('45700482854889', $res->get());
+    }
+
     /**
      * @expectedException \mrcnpdlk\Validator\Exception
      */

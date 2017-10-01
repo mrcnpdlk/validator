@@ -26,6 +26,18 @@ class NipTest extends TestCase
         $this->assertEquals('string', gettype($res->getTaxOffice()));
     }
 
+    public function testIsValid()
+    {
+        $this->assertTrue(Nip::isValid('5261040828',false));
+        $this->assertFalse(Nip::isValid('5261040827',false));
+    }
+
+    public function testCreate()
+    {
+        $res = Nip::create('7844072717');
+        $this->assertEquals('7844072717', $res->get());
+    }
+
     /**
      * @expectedException \mrcnpdlk\Validator\Exception
      */
