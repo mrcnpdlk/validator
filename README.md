@@ -31,6 +31,22 @@ Bst way:
 ```php
 composer require mrcnpdlk/validator
 ```
+### Supported Types
+
+|Type|Class|Example|
+|---|---|---|
+|Date|Date|YYYY-MM-DD|
+|DateTime|DateTime|YYYY-MM-DD HH:MM:SS|
+|Polish identity card|IdCard|XXX12323|
+|IP ver 4 address|IPv4|192.168.1.1|
+|MAC address|Mac||
+|Polish KRS|Krs||
+|Polish NIP|Nip||
+|Polish REGON|Regon||
+|Polish bank account|Nrb||
+|Polish PESEL|Pesel||
+|Polish postal code|Pna||
+
 
 ### Using
 
