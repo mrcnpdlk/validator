@@ -38,7 +38,7 @@ class Krs extends TypeAbstract implements TypeInterface
         try {
             static::isValidType($checkedValue, static::TYPE_STRING, true);
 
-            if (!preg_match('/^[0-9]{10}/', $checkedValue)) {
+            if (!preg_match('/^[0-9]{10}/', $checkedValue) || ($checkedValue === '0000000000')) {
                 throw new \Exception("Regexp error", 1);
             }
 

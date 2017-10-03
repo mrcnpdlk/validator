@@ -40,4 +40,12 @@ class KrsTest extends TestCase
         new Krs('000031d1911');
     }
 
+    /**
+     * @expectedException \mrcnpdlk\Validator\Exception
+     */
+    public function testKrsEmpty()
+    {
+        new Krs('');
+    }
+
 }

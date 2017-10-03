@@ -24,7 +24,7 @@ class Regon extends TypeAbstract implements TypeInterface
         try {
             static::isValidType($checkedValue, static::TYPE_STRING, true);
 
-            if (preg_match('/^[0-9]{9}$/', $checkedValue) || preg_match('/^[0-9]{14}$/', $checkedValue)) {
+            if ((preg_match('/^[0-9]{9}$/', $checkedValue) || preg_match('/^[0-9]{14}$/', $checkedValue)) && (substr($checkedValue,0,9) !== '000000000')) {
                 if (strlen($checkedValue) === 9) {
                     $weights = [8, 9, 2, 3, 4, 5, 6, 7]; //wagi stosowane dla REGONów 9-znakowych
                 } else {

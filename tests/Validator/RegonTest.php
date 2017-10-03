@@ -55,4 +55,12 @@ class RegonTest extends TestCase
         new Regon('0003315021');
     }
 
+    /**
+     * @expectedException \mrcnpdlk\Validator\Exception
+     */
+    public function testRegonEmpty()
+    {
+        new Regon('');
+    }
+
 }
