@@ -98,7 +98,7 @@ class IPv4 extends TypeAbstract implements TypeInterface
      *
      * @return int
      */
-    public function getLong()
+    public function getAsInt()
     {
         return ip2long($this->get());
     }
