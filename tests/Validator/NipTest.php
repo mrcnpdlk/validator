@@ -41,6 +41,14 @@ class NipTest extends TestCase
     /**
      * @expectedException \mrcnpdlk\Validator\Exception
      */
+    public function testNipEmpty()
+    {
+        new Nip('');
+    }
+
+    /**
+     * @expectedException \mrcnpdlk\Validator\Exception
+     */
     public function testNipInvalidChecksum()
     {
         new Nip('5261040829');
