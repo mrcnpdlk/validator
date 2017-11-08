@@ -69,10 +69,9 @@ class Phone extends TypeAbstract implements TypeInterface
     {
         try {
             static::isValidType($checkedValue, static::TYPE_STRING, true);
-            if (!preg_match('/(?:' . static::COUNTRY_PREFIX . ')?([\d]{9})/', $checkedValue, $f)) {
+            if (!preg_match('/^' . static::COUNTRY_PREFIX . '[\d]{9}$/', $checkedValue)
+                && !preg_match('/^[\d]{9}$/', $checkedValue)) {
                 throw new \Exception('regex error');
-            } else {
-                print_r($f);
             }
 
             return true;
