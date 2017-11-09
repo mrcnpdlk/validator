@@ -46,6 +46,7 @@ composer require mrcnpdlk/validator
 |Polish bank account|Nrb||
 |Polish PESEL|Pesel||
 |Polish postal code|Pna||
+|Polish phone|Phone||
 
 
 ### Using
@@ -87,6 +88,34 @@ returns:
 string(26) "13102027912123538978010731"
 string(3) "102"
 string(8) "10202791"
+
+#### PHONE
+```php
+
+$oPhone = new \mrcnpdlk\Validator\Types\Phone('48 42 6742222');
+var_dump($oPhone->isMobile());
+var_dump($oPhone->isFixed());
+var_dump($oPhone->isPremiumRate());
+var_dump($oPhone->isTollFree());
+var_dump($oPhone->isSharedCost());
+var_dump($oPhone->isUAN());
+var_dump($oPhone->isVoip());
+var_dump($oPhone->getInternationalFormat());
+var_dump($oPhone->getNationalFormat());
+var_dump($oPhone->getRegion());
+```
+returns:
+```text
+bool(false)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+string(11) "48426742222"
+string(9) "426742222"
+string(7) "Łódź"
 
 ```
 
