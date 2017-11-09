@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Validator
+  ~
+  ~ Copyright (c) 2017 pudelek.org.pl
+  ~
+  ~ @license MIT License (MIT)
+  ~
+  ~ For the full copyright and license information, please view source file
+  ~ that is bundled with this package in the file LICENSE
+  ~
+  ~ @author Marcin Pudełek <marcin@pudelek.org.pl>
+  -->
+
+<tablica>
+  <header>
+    <tytul><![CDATA[T2-PLMN]]></tytul>
+    <data><![CDATA[2017-11-08 17:00:01]]></data>
+  </header>
+  <numery>
+    <plmn>
+      <numer>450</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>45(1-8)</numer>
+      <operator>Rezerwa Prezesa UKE</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>4591</numer>
+      <operator>KLUCZ Telekomunikacja Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>45920</numer>
+      <operator>SIA Ntel Solutions</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>4592(1-9)</numer>
+      <operator>Rezerwa Prezesa UKE</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>459(3,6-0)</numer>
+      <operator>Rezerwa Prezesa UKE</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>45945</numer>
+      <operator>NAU Profit Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>45950</numer>
+      <operator>SIA Ntel Solutions</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>4595(1-9)</numer>
+      <operator>Rezerwa Prezesa UKE</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>500</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>501</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>502</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>503</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>504</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>505</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>506</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>507</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>508</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>509</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>510</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>511</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>512</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>513</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>514</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>515</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>516</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>517</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>518</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>519</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>530</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>531</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>532</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>533</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>534</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>535</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>536(1-5,7-0)</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>5366</numer>
+      <operator>Polskie Sieci Cyfrowe Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>537</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>538</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>539</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>571(1-4)</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>571(5-0)</numer>
+      <operator>Rezerwa Prezesa UKE</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>572</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>573(1-4,9,0)</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>573(5-8)</numer>
+      <operator>Rezerwa Prezesa UKE</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57(4-8,0)</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>579(1-3)</numer>
+      <operator>Lycamobile Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57941</numer>
+      <operator>Messagebird B.V.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57942</numer>
+      <operator>SIA NetBalt</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>5794(3-5,0)</numer>
+      <operator>ITI Neovision S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57946</numer>
+      <operator>KLUCZ Telekomunikacja Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57947</numer>
+      <operator>Nowa Telefonia Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57948</numer>
+      <operator>SIA Ntel Solutions</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57949</numer>
+      <operator>SGT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57950</numer>
+      <operator>KLUCZ Telekomunikacja Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>5795(1,2,4-6)</numer>
+      <operator>Virgin Mobile Polska Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57953</numer>
+      <operator>SIA NetBalt</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57957</numer>
+      <operator>3S S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57958</numer>
+      <operator>NIMBUSFIVE GmbH</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>57959</numer>
+      <operator>ITI Neovision S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>5796</numer>
+      <operator>Virgin Mobile Polska Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>5797</numer>
+      <operator>EZ PHONE MOBILE Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>579(8-0)</numer>
+      <operator>Virgin Mobile Polska Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>600</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>601</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>602</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>603</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>604</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>605</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>606</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>607</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>608</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>609</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>660</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>661</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>662</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>663</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>664</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>665</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>666(1-5,7-0)</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>6666</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>667</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>668</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>669</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>690(1-6)</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>6907</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>690(8-0)</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>691</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>692</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>693</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>694</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>695</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>696</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>697</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>698</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69900</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69901</numer>
+      <operator>AMD Telecom S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69902</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69903</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69904</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69905</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69906</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69907</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69908</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69909</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69910</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69911</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69912</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69913</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69914</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69915</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69916</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69917</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69918</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69919</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69920</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69921</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69922</numer>
+      <operator>E-Telko Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>69923</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69924</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69925</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69926</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69927</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69928</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69929</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>6993</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>6994</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69950</numer>
+      <operator>AMD Telecom S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>6995(1-5)</numer>
+      <operator>Mobiledata Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>6995(6,7)</numer>
+      <operator>Kwarantanna (Teleena Holding BV do 07.2016)</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>69958</numer>
+      <operator>Wysyłaj SMS Polska Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>69959</numer>
+      <operator>Move Telecom S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>69960</numer>
+      <operator>3S S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>69961</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69962</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69963</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69964</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69965</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69966</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69967</numer>
+      <operator>Nowa Telefonia Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>69968</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>69969</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>69970</numer>
+      <operator>ITI Neovision S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>69971</numer>
+      <operator>Sat Film Sp. z o.o. i Wspólnicy Sp.k.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>6997(2,3,5-7)</numer>
+      <operator>Novum S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>69974</numer>
+      <operator>COMPATEL LIMITED</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>69978</numer>
+      <operator>VOXBONE SA</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>69979</numer>
+      <operator>ITI Neovision S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>6998</numer>
+      <operator>Telefonia Dialog Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>6999</numer>
+      <operator>Telefonia Dialog Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>720(1-7,9,0)</numer>
+      <operator>AERO 2 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7208</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>721</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>722</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>723</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>724</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>725</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>726</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>7271</numer>
+      <operator>Nordisk Polska Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>727(2,3)</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>727(4-6,8-0)</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7277(1,2,7,9,0)</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7277(3-6,8)</numer>
+      <operator>Multimedia Polska S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7280</numer>
+      <operator>AERO 2 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>728(1-9)</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>7290</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7291</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>729(2-6)</numer>
+      <operator>Lycamobile Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>72970</numer>
+      <operator>AMD Telecom S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>72971</numer>
+      <operator>Sat Film Sp. z o.o. i Wspólnicy Sp.k.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>72972</numer>
+      <operator>COMPATEL LIMITED</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7297(3,4)</numer>
+      <operator>NEXTGEN MOBILE LTD</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>72975</numer>
+      <operator>CALLFREEDOM Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>72976</numer>
+      <operator>Sat Film Sp. z o.o. i Wspólnicy Sp.k.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7297(7-9)</numer>
+      <operator>UAB VORTUMO</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7298</numer>
+      <operator>Kwarantanna (Mundio Mobile do 05.2014)</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7299(1-3,0)</numer>
+      <operator>Kwarantanna (Mundio Mobile do 05.2014)</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7299(4-9)</numer>
+      <operator>Premium Mobile S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>730</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>731</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>732</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>733</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>734</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>735</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>736(1-6)</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>736(7-0)</numer>
+      <operator>Virgin Mobile Polska Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7370</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7371</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7372(1-6,0)</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7372(7-9)</numer>
+      <operator>Fundacja Nasza Wizja</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>737(3-9)</numer>
+      <operator>Virgin Mobile Polska Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>738</numer>
+      <operator>PKP Polskie Linie Kolejowe S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7391(1,2)</numer>
+      <operator>VECTRA S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7391(3-0)</numer>
+      <operator>Kwarantanna (Mundio Mobile do 05.2014)</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>739(2,0)</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>73930</numer>
+      <operator>VECTRA S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7393(1-9)</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>739(4-6)</numer>
+      <operator>Lycamobile Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>739(7,8)</numer>
+      <operator>Cyfrowy POLSAT S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>73991</numer>
+      <operator>AGILE TELECOM S.P.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>73992</numer>
+      <operator>MobiWeb Telecom Limited</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>73993</numer>
+      <operator>SIA NetBalt</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7399(4-6)</numer>
+      <operator>Multimedia Polska - Południe S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7399(7,8,0)</numer>
+      <operator>VikingCo Poland Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>73999</numer>
+      <operator>AHMES Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>780(1,5,6,0)</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>78020</numer>
+      <operator>KLUCZ Telekomunikacja Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7802(1-4,7)</numer>
+      <operator>INEA S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>78025</numer>
+      <operator>Interactive Digital Media GmbH</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>78026</numer>
+      <operator>SIA NetBalt</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>78028</numer>
+      <operator>METROPORT Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>78029</numer>
+      <operator>SMSHIGHWAY LIMITED</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7803</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>780(4,9)</numer>
+      <operator>Rezerwa Prezesa UKE</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>780(7,8)</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>781</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>782</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>783</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>784</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>785</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>7860(1-6)</numer>
+      <operator>Multimedia Polska S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>78607</numer>
+      <operator>VECTRA S.A.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>78608</numer>
+      <operator>TOYA Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>7860(9,0)</numer>
+      <operator>Rebtel Poland Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>786(1,2)</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>786(3,4,7)</numer>
+      <operator>Rezerwa Prezesa UKE</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>786(5,6,8,9)</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>787</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>788</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>7890</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>7891</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>7892</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>7893</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>7894</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>789(5-9)</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>790</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>791</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>792</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>793</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>794</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>795(1-5)</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>795(6-0)</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>796</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>797</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>798</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>7990</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>799(1-5)</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>7996</numer>
+      <operator>Orange Polska S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>799(7-9)</numer>
+      <operator>Virgin Mobile Polska Sp. z o.o.</operator>
+      <typ>MVNO</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>880</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>8811</numer>
+      <operator>AERO 2 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>881(2-7)</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>881(8-0)</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>882</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>883(1,2,4-7,9,0)</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>883(3,8)</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>884(1,2)</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>884(3,6-0)</numer>
+      <operator>P4 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>true</blokada>
+    </plmn>
+    <plmn>
+      <numer>8844</numer>
+      <operator>AERO 2 Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>8845</numer>
+      <operator>SFERIA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>885</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>886</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>887</numer>
+      <operator>Polkomtel Sp. z o.o.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>888</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+    <plmn>
+      <numer>889</numer>
+      <operator>T-MOBILE POLSKA S.A.</operator>
+      <typ>PLMN</typ>
+      <blokada>false</blokada>
+    </plmn>
+  </numery>
+</tablica>
