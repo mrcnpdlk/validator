@@ -164,7 +164,7 @@ class Phone extends TypeAbstract implements TypeInterface
                 $nr = substr($nr, 0, -1);
             }
         } elseif ($this->isFixed()) {
-            $sRegion = $this->getUkeFixedPlan()[substr($this->getNationalFormat(),0,2)] ?? null;
+            $sRegion = $this->getUkeFixedPlan()[substr($this->getNationalFormat(), 0, 2)] ?? null;
         }
 
         return $sRegion ?? 'Polska';
@@ -222,7 +222,7 @@ class Phone extends TypeAbstract implements TypeInterface
             $prefix = $f['prefix'];
             $suffix = $f['suffix'] ?? null;
             $tSuf   = [];
-            if ($suffix) {
+            if (!is_null($suffix)) {
                 foreach (explode(',', $suffix) as $digit) {
                     if (preg_match("/((?'first'[\d]{1})\-(?'last'[\d]{1}))/", $digit, $f)) {
                         $first = intval($f['first']);
