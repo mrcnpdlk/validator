@@ -89,6 +89,21 @@ string(26) "13102027912123538978010731"
 string(3) "102"
 string(8) "10202791"
 
+```
+returns:
+```text
+bool(false)
+bool(true)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+bool(false)
+string(11) "48426742222"
+string(9) "426742222"
+string(7) "Łódź"
+```
+
 #### PHONE
 ```php
 
@@ -103,20 +118,6 @@ var_dump($oPhone->isVoip());
 var_dump($oPhone->getInternationalFormat());
 var_dump($oPhone->getNationalFormat());
 var_dump($oPhone->getRegion());
-```
-returns:
-```text
-bool(false)
-bool(true)
-bool(false)
-bool(false)
-bool(false)
-bool(false)
-bool(false)
-string(11) "48426742222"
-string(9) "426742222"
-string(7) "Łódź"
-
 ```
 
 ## Running the tests
